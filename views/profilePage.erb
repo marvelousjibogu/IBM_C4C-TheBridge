@@ -1,0 +1,112 @@
+<html lang="en">  
+  
+  
+  <head>
+      <meta charset="utf-8">
+      <title>Mentors</title>  
+      <link rel="stylesheet" href="style/default.css?v=2">
+      <!--Bad style, Temporary solution-->
+      <style> 
+        .main{  
+          margin:0 0 0 5%;
+          background-color: rgb(253, 253, 245);
+          padding: 0;
+          width:100%;
+          overflow:hidden;
+          max-width:100%
+       }
+        
+        body nav ul{
+          background-color: #c9c9c9;
+          height:40px;
+          padding:10px 10px 0px 0px;
+        }
+
+        body nav li{
+          display: inline;
+          padding: 2em 10px;
+          font-size: 20px;
+        }
+
+        p {
+          font-size:25px;
+        }
+
+        h {
+          font-size:30px;
+        }
+
+        .backToMentors {
+          size:25px;
+        }
+        
+        .Bio{
+          border:1px solid black;
+          width:60%;
+          padding:1em;
+        }
+        
+        .formForEmail{
+          font-size:20px;
+        }
+        
+    </style> 
+  </head>
+     
+  <body>
+    
+   <%= erb :"common/navbar" %>
+    
+   <div class="main">
+       
+      <h1><%=h @individual_user.getName%></h1>
+        
+      <p><%=h @individual_user.role%></p>
+      
+    <div class="Bio"> 
+        <h2>Bio</h2>
+        <p><%=h @individual_user.aboutMe%></p>
+    </div>
+    
+    <br>
+     
+      <% if @current_user.connected_mentor == "none" %>
+        
+      <p>Want to match with this mentor? Click on the button below to do so.</p>
+        <form method="post" action="/match">
+                <input type="hidden" name="username" value="<%=h @individual_user.getUsername %>">
+                <button type="submit">
+                    Match!
+                </button>
+        </form>
+      
+      <% else %>
+        <p>You currently have an active request with a mentor, thus you can't request more.</p>
+      <% end %>
+         
+      <style>
+          .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #c9c9c9;
+          color: black;
+          text-align: center;
+        }
+
+
+        .footer li {
+          display: inline;
+          padding: 0px 25px 0px 25px;
+        }
+
+        a:hover {
+            color: darkorange;
+        }
+      </style> 
+      </div>  
+    </body>
+  
+    
+</html>
