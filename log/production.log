@@ -1,0 +1,9 @@
+# Logfile created on 2021-07-21 15:15:15 +0000 by logger.rb/v1.4.3
+I, [2021-07-21T15:15:15.735662 #1362]  INFO -- : (0.000160s) PRAGMA foreign_keys = 1
+I, [2021-07-21T15:15:15.735745 #1362]  INFO -- : (0.000017s) PRAGMA case_sensitive_like = 1
+I, [2021-07-21T15:15:50.535857 #1363]  INFO -- : (0.000149s) PRAGMA foreign_keys = 1
+I, [2021-07-21T15:15:50.535957 #1363]  INFO -- : (0.000014s) PRAGMA case_sensitive_like = 1
+I, [2021-07-21T15:20:46.338907 #1388]  INFO -- : (0.000159s) PRAGMA foreign_keys = 1
+I, [2021-07-21T15:20:46.339019 #1388]  INFO -- : (0.000013s) PRAGMA case_sensitive_like = 1
+I, [2021-07-21T15:32:22.861113 #1440]  INFO -- : (0.000156s) PRAGMA foreign_keys = 1
+I, [2021-07-21T15:32:22.861215 #1440]  INFO -- : (0.000015s) PRAGMA case_sensitive_like = 1
