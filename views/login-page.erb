@@ -1,0 +1,58 @@
+<%= erb :"common/header" %>
+<link rel="stylesheet" href="/style/login-page-style.css">
+
+<main>
+
+   
+<form id="loginForm" method="post" action="/login-page">
+    
+  <h1>Website name</h1>
+    
+  <section id="inputBox" class="round">
+      
+    <section id="inputs">
+      
+      <% unless @error.nil? %>
+        <p><strong class="error"><%= @error %></strong></p>
+    <% end %>
+        
+      <p>Username: <br /><input type="text" name="username" value="<%= @user.username %>"/></p>
+      <% if @user.errors.include?("username") %>
+            <% @user.errors["username"].each do |error| %>
+                  <p class="error"><strong>Username <%= error %></strong></p>
+            <% end %>
+      <% end %>
+      
+        
+    <p>Password: <br /><input type="password" name="password" /></p>
+    <% if @user.errors.include?("password") %>
+        <% @user.errors["password"].each do |error| %>
+            <p class="error"><strong>Password <%= error %></strong></p>
+        <% end %>
+    <% end %>
+        
+        
+        <span class="psw">Forgot <a href="./forgot-password">password</a>?</span>
+    </section>
+    <div class="radio_bttns">   
+    <input type="radio" name="usertype" value="mentee" checked="checked" id="mentee">
+    <label for="mentee">Mentee</label><br>
+    <input type="radio" name="usertype" value="mentor" id = "mentor">
+    <label for="mentor">Mentor</label><br>
+    <input type="radio" name="usertype" value="admin" id = "admin">
+    <label for="admin">Admin</label><br>
+     </div>
+    <div id="btns">
+        <button type="submit">Login</button>
+        <a href="./registration-page"><button type="button">Sign up</button></a>
+    </div> 
+      
+
+
+  </section>
+
+</form>
+
+</main>
+
+<%= erb :"common/footer" %>

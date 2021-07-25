@@ -1,0 +1,168 @@
+/*Author: Marvelous Jibogu*/
+
+:root {
+    --alt_col_1: rgb(255, 245, 238);
+    --alt_col_2: rgb(238, 75, 43);
+    --alt_col_3: rgb(211,211,211);
+    --alt_col_4: white;
+    --alt_col_5: rgb(150,150,150);
+    --alt_col_7: black;
+    --alt_col_8: rgb(250, 249, 246);
+    --font: Century Gothic, sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color: var(--alt_col_4);
+    margin: 0 auto;
+    min-width: 320px;
+    font-family: var(--font);
+}
+
+header {
+    background-color: var(--alt_col_1);
+    padding: 0.5rem 3%;
+}
+
+header h1 {
+    color: var(--alt_col_2);
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#menuToggle {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+#menuLaptop {
+    margin: 0;
+    padding: 0.5rem 3%;
+    background-color: var(--alt_col_3);
+    color: var(--alt_col_7);
+    font-size: 1.1em;
+    display: block;
+}
+  
+#menuLaptop ul {  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+#menuLaptop ul li {
+    display: inline;
+    padding-right: 5%;
+}
+  
+#menuLaptop a {
+    text-decoration: none;
+    outline: none;
+    transition: color 0.3s ease;
+}
+  
+#menuLaptop a:link {
+    color: var(--alt_col_1);
+}
+  
+#menuLaptop a:hover { 
+    color: var(--alt_col_2);
+    cursor: pointer;
+}
+
+img {
+    width: 50%;
+    padding: 0.5rem 0rem;
+}
+
+main {
+    padding: 0.5rem 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    gap: 0.5rem;
+}
+
+main h1 {
+    font-size: 1.4rem;
+}
+
+#intro {
+    background-color: var(--alt_col_8);
+    padding: 0.5rem 3%;
+    color: var(--alt_col_7);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+}
+
+#baseHeader {
+    background-color: var(--alt_col_1);
+    width: 100%;
+}
+
+#flexControl {
+    display: flex;
+    flex-direction: column;
+}
+
+#intro h1 {
+    color: var(--alt_col_7);
+}
+
+footer {
+    padding: 0.5rem 3%;
+}
+
+footer p {
+    margin: 0;
+    color: var(--alt_col_7);
+}
+
+#wrapper {
+    width: 100%;
+    background-color: var(--alt_col_4);
+    margin: 0 auto;
+    font-family: var(--font);
+}
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 4rem;
+    }
+    #intro h1 {
+        font-size: 2rem;
+    }
+    #tutorials {
+        width: 50%;
+        padding-top: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    #headerimg {
+        width: 115px;
+        padding-top: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    #flexControl {
+        flex-direction: row;
+    }
+    #flexControl p {
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #intro p {
+        font-size: 18px;
+    }
+}
