@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: the-bridge-3w7om8qm
+  name: the-bridge-3w7om8qm
+  memory: 128M
+  stack: cflinuxfs2
