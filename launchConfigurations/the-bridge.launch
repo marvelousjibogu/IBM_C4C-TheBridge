@@ -8,6 +8,7 @@
     },
     "Name": "the-bridge-3w7om8qm",
     "Instrumentation": {
+      "host": "the-bridge-3w7om8qm",
       "domain": "eu-gb.mybluemix.net"
     }
   },
