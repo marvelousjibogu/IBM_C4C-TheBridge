@@ -9,7 +9,9 @@
     "Name": "the-bridge-3w7om8qm",
     "Instrumentation": {
       "host": "the-bridge-3w7om8qm",
-      "domain": "eu-gb.mybluemix.net"
+      "domain": "eu-gb.mybluemix.net",
+      "memory": "128M",
+      "instances": "1"
     }
   },
   "Path": "manifest.yml",
