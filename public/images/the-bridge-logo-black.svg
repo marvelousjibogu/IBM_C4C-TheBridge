@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.842514mm"
+   height="50.039303mm"
+   viewBox="0 0 87.842514 50.039303"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="the-bridge-logo-black.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#a9a9a9"
+     bordercolor="#0e0e0e"
+     borderopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="4.1524866"
+     inkscape:cx="276.34045"
+     inkscape:cy="121.97511"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="163.47374"
+       y="311.9624"
+       width="328.30975"
+       height="216.60271"
+       id="rect1353" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;opacity:1"
+     transform="translate(-43.252657,-85.984751)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1351"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1353);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="163.47461"
+         y="389.81505"
+         id="tspan29720"><tspan
+           style="font-size:85.3333px;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:0px"
+           id="tspan29716">The</tspan><tspan
+           style="font-weight:bold;font-size:85.3333px;-inkscape-font-specification:'sans-serif, Bold'"
+           id="tspan29718">
+</tspan></tspan><tspan
+         x="163.47461"
+         y="496.48167"
+         id="tspan29724"><tspan
+           style="font-weight:bold;font-size:85.3333px;-inkscape-font-specification:'sans-serif, Bold'"
+           id="tspan29722">Bridge</tspan></tspan></text>
+    <rect
+       id="rect18700"
+       width="4.5145178"
+       height="4.1322165"
+       x="115.20666"
+       y="126.95075"
+       style="fill:#ff6600;stroke-width:0.211368" />
+  </g>
+</svg>
