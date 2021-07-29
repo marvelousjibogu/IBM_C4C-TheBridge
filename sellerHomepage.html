@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Dashboard Page</title>
+    <link rel="shortcut icon" href="../public/images/TheBridgeLogo.ico">
+    <link rel="stylesheet" href="styles/sellerHome.css">
+  </head>
+  <body>
+     <nav>
+         <header>
+             <img id="headerimg" src="../public/images/TheBridgeLogo.png" alt="The Bridge Logo">
+         </header>
+          <header>Sales Report</header>
+          <section>
+            <header>Main</header>
+            <ul>
+              <li class="active">Dashboard</li>
+              <li data-value="8">Reports</li>
+            </ul>
+          </section>
+          <section>
+            <header>Account</header>
+            <ul>
+              <li data-value="4">Messages</li>
+            </ul>
+          </section>
+        </nav>
+     <article>
+          <header>
+            <div class="title">Dashboard</div>
+            <div class="user"></div>
+          </header>
+          <section>
+            <header>Total Sales</header>
+            <div class="inlineChart">
+              <canvas id="c2" width="100" height="100" style="width: 100px; height: 100px;"></canvas>
+              <div class="info">
+                <div class="value">$36,146</div>
+                <div class="title">Credit sales</div>
+              </div>
+            </div>
+            <div class="inlineChart">
+              <canvas id="c3" width="100" height="100" style="width: 100px; height: 100px;"></canvas>
+              <div class="info">
+                <div class="value">$24,734</div>
+                <div class="title">Channel Sales</div>
+              </div>
+            </div>
+            <div class="inlineChart">
+              <canvas id="c4" width="100" height="100" style="width: 100px; height: 100px;"></canvas>
+              <div class="info">
+                <div class="value">$15,650</div>
+                <div class="title">Direct Sales</div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <table>
+              <thead>
+                <tr>
+                  <th>November Sales</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Dallas Oak Dining Chair</td>
+                  <td>20</td>
+                  <td>$1,342</td>
+                </tr>
+                <tr>
+                  <td>Benmore Glass Coffee Table</td>
+                  <td>18</td>
+                  <td>$1,550</td>
+                </tr>
+                <tr>
+                  <td>Aoraki Leather Sofa</td>
+                  <td>15</td>
+                  <td>$4,170</td>
+                </tr>
+                <tr>
+                  <td>Bali Outdoor Wicker Chair</td>
+                  <td>25</td>
+                  <td>$2,974</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </article>
+      <script src="./javascript/doughnut.js"></script>
+  </body>
+  <footer>
+     <p>&#9400; The Bridge, 2021
+  </footer>
+</html>

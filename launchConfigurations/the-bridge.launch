@@ -6,10 +6,19 @@
       "Org": "TheBridge",
       "Space": "dev"
     },
+<<<<<<< HEAD
     "Name": "the-bridge-3w7om8qm",
     "Instrumentation": {
       "host": "the-bridge-3w7om8qm",
       "domain": "eu-gb.mybluemix.net"
+=======
+    "Name": "the-bridge",
+    "Instrumentation": {
+      "host": "the-bridge",
+      "domain": "eu-gb.mybluemix.net",
+      "memory": "128M",
+      "instances": "1"
+>>>>>>> 3132092d61e0e8f7ca010c357f73da01bdbcdcfc
     }
   },
   "Path": "manifest.yml",
