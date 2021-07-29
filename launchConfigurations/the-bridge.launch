@@ -1,0 +1,19 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.eu-gb.cf.cloud.ibm.com",
+      "Org": "TheBridge",
+      "Space": "dev"
+    },
+    "Name": "the-bridge-3w7om8qm",
+    "Instrumentation": {
+      "host": "the-bridge-3w7om8qm",
+      "domain": "eu-gb.mybluemix.net",
+      "memory": "128M",
+      "instances": "1"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
