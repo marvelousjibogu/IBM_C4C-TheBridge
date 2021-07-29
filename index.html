@@ -3,66 +3,144 @@
     <head>
         <meta charset="utf-8">
         <meta name="Author" content="Marvelous Jibogu">
-        <title>The Bridge</title>
-        <link rel="shortcut icon" href="public/images/TheBridgeLogo.ico">
-        <link rel="stylesheet" href="public/styles/reset.css">
-        <link rel="stylesheet" href="public/styles/style.css">
-        <!--Links to a different stylesheet when critical width reached - this is because of the change in nav bar at this screen width, 
-        which made it difficult to use one stylesheet-->
-        <link rel="stylesheet" media="screen and (min-width: 1024px)" href="public/styles/stylelaptop.css">
+	    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+	    <link rel="icon" type="image/png" href="public/images/TheBridgeLogo.ico">	
+	
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	    <title>The Bridge</title>
+
+	    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+	
+        <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
+        <link href="bootstrap3/css/font-awesome.css" rel="stylesheet" />
+    
+	    <link href="public/styles/gsdk.css" rel="stylesheet" />   
+        <link href="public/styles/demo.css" rel="stylesheet" />
+
+        <!--     Font Awesome     -->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <!--Generally, all div elements used are to add more control to the behaviour of the webpage; general structure same on other pages-->
-        <div id="wrapper">
-            <header>
-                <div id="flexControl">
-                    <img id="headerimg" src="public/images/the-bridge-logo-black.svg" alt="The Bridge Logo" >
-                    <h1>Learn</h1>
-                </div>
-            </header>
-            <!--Three nav bars are used to control switch between small screen nav and large screen nav bars-->
-            <nav id="menu">
-                <ul>
-                    <li id="home"><a>Home</a></li>
-                    <li id="learn"><a>Learn</a></li>
-                    <li id="ourMission"><a>Our Mission</a></li>
-                    <li id="donate"><a>Donate</a></li>
-                    <li id="contact"><a>Contact Us</a></li>
-                    <li id="accessibility"><a>Accessibility Statement</a></li>
-                </ul>
-            </nav>
-            <nav id="menuToggle">
-                <li>Menu</li>
-            </nav>
-            <nav id="menuLaptop">
-                <ul>
-                    <li id="home"><a>Home</a></li>
-                    <li id="learn"><a>Learn</a></li>
-                    <li id="ourMission"><a>Our Mission</a></li>
-                    <li id="donate"><a>Donate</a></li>
-                    <li id="contact"><a>Contact Us</a></li>
-                    <li id="accessibility"><a>Accessibility Statement</a></li>
-                </ul>
-            </nav>
-            <main>
-                <!--Helps control positioning of any other elements on page-->
-                <div id="intro">
-                    
-                    <!--Helps control flex direction of images and paragraphs-->
-                    <div id="flexControl">
-                        <img id="tutorial" src="public/images/website.png" alt="A picture of a website on a phone, laptop and desktop computer">
-                        <div>
-                            <h1>How to Use the Website</h1>
-                            <p>Learn how to use the website</p>
+            <div id="navbar-full">
+                <div id="navbar">
+                <!--    
+                    navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+                    -->
+                    <nav class="navbar navbar-ct-red navbar-transparent navbar-fixed-top" role="navigation">
+                      <div class="alert alert-success hidden">
+                        <div class="container">
+                            <b>Lorem ipsum</b> dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                         </div>
-                    </div> 
+                      </div>
+                      
+                      <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                          <a href="homepage.html">
+                            <div class="logo-container">
+                               <div class="logo">
+                                   <img src="public/images/TheBridgeLogo.png">
+                               </div>
+                            </div>
+                          </a>
+                        </div>
+                    
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav">
+                            
+                            <li class="dropdown">
+                                  <a href="#gsdk" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#gsdk">Our Mission</a></li>
+                                    <li><a href="#gsdk">Donate</a></li>
+                                    <li><a href="#gsdk">Accessibility Statement</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#gsdk">Contact Us</a></li>
+                                  </ul>
+                            </li>
+                            <li class="logo-container2"><div class="logo">
+                                <img src="public/images/GB-United-Kingdom-Flag-icon.png">
+                            </div></li>
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                            </li>
+                          </ul>
+                           <form class="navbar-form navbar-left navbar-search-form" role="search">                  
+                             <div class="form-group">
+                                  <input type="text" value="" class="form-control" placeholder="Search...">
+                             </div> 
+                          </form>
+                          <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#gsdk">Register</a></li>
+                                
+                                <li><button href="#gsdk" class="btn btn-round btn-default">Sign in</button></li>
+                           </ul>
+                          
+                        </div><!-- /.navbar-collapse -->
+                      </div><!-- /.container-fluid -->
+                    </nav>
+                    <div class="blurred-container">
+                        <div class="img-src" style="background-image: url('public/images/homepagebg-thebridge2.png')"></div>
+                    </div>
+                </div><!--  end navbar -->
+            
+            </div> <!-- end menu-dropdown -->
+            <div class="main">
+                <div class="container tim-container" style="max-width:800px; padding-top:100px">
+                    <div class="space"></div>
+                    <div id="images">
+                         <div class="tim-title">
+                            <h2>Featured Products</h2>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <img src="public/images/product1.png" alt="Rounded Image" class="img-rounded">
+                                <h4>Tulip Bulb Mesh Vase</h4>
+                                <h6>By Francis Mwangi</h6>
+                                <p>£27.99</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="public/images/product2.png" alt="Rounded Image" class="img-rounded">
+                                <h4>Bulb Ceiling Lamp Shade</h4>
+                                <h6>By Lucy Maina</h6>
+                                <p>£32.49</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <img src="public/images/product3.png" alt="Rounded Image" class="img-rounded">
+                                <h4>Geometric Egg Sculpture</h4>
+                                <h6>By Wanjiru Onyango</h6>
+                                <p>14.99</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                        
+                        </div>
+                    </div>  
+                <!--   end images -->      
                 </div>
-            </main>
-            <hr>
-            <footer>
-                <p>&#9400; The Bridge, 2021
-            </footer>
-        </div>
-        <script src="./javascript/toggleMenu.js"></script>
+                <div class="space"></div>
+            <!-- end container -->
+            </div>
+        <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+        <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    
+        <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+        <script src="assets/js/gsdk-checkbox.js"></script>
+        <script src="assets/js/gsdk-radio.js"></script>
+        <script src="assets/js/gsdk-bootstrapswitch.js"></script>
+        <script src="assets/js/get-shit-done.js"></script>
+        
+        <script src="assets/js/custom.js"></script>
     </body>
 </html>
