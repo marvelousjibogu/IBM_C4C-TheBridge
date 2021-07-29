@@ -6,9 +6,9 @@
       "Org": "TheBridge",
       "Space": "dev"
     },
-    "Name": "the-bridge-3w7om8qm",
+    "Name": "the-bridge",
     "Instrumentation": {
-      "host": "the-bridge-3w7om8qm",
+      "host": "the-bridge",
       "domain": "eu-gb.mybluemix.net",
       "memory": "128M",
       "instances": "1"
