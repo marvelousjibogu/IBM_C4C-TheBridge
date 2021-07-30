@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="83.341629mm"
+   height="50.463741mm"
+   viewBox="0 0 83.341629 50.463741"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="the-bridge-logo-test.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#bebebe"
+     bordercolor="#0e0e0e"
+     borderopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0381216"
+     inkscape:cx="162.31239"
+     inkscape:cy="50.57211"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2">
+    <rect
+       x="163.47374"
+       y="311.9624"
+       width="328.30975"
+       height="216.60271"
+       id="rect1353" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 2"
+     transform="translate(0.50973475,0.25486737)">
+    <rect
+       style="fill:#0a0a0a;fill-opacity:1;stroke-width:0.264583"
+       id="rect1067"
+       width="83.341629"
+       height="50.463741"
+       x="-0.50973475"
+       y="-0.25486737" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;opacity:1"
+     transform="translate(-42.742922,-85.729884)">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1351"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1353);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="163.47461"
+         y="389.81505"
+         id="tspan1179"><tspan
+           style="font-size:85.3333px;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:0px;fill:#ffffff"
+           id="tspan1175">The</tspan><tspan
+           style="font-weight:bold;font-size:85.3333px;-inkscape-font-specification:'sans-serif, Bold';fill:#ffffff"
+           id="tspan1177">
+</tspan></tspan><tspan
+         x="163.47461"
+         y="496.48167"
+         id="tspan1183"><tspan
+           style="font-weight:bold;font-size:85.3333px;-inkscape-font-specification:'sans-serif, Bold';fill:#ffffff"
+           id="tspan1181">Bridge</tspan></tspan></text>
+    <rect
+       id="rect18700"
+       width="4.5145178"
+       height="4.1322165"
+       x="115.20666"
+       y="126.95075"
+       style="fill:#ff6600;stroke-width:0.211368" />
+  </g>
+</svg>
