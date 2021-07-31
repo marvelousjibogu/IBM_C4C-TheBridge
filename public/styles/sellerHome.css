@@ -199,3 +199,15 @@ a:link, a:visited {
     color: #738491;
     cursor: pointer;
 }
+.logo-container{
+    margin-top: 10px;
+}
+.logo-container .logo{
+    overflow: hidden;
+    height: 50px;
+    width: 88px;
+    float: left;
+}
+.logo-container .logo img{
+    width: 100%;
+}
