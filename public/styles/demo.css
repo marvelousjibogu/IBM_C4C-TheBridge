@@ -3,6 +3,19 @@
     background: #ffffff;
 
 }
+
+.bridgeheader {
+    background-color:mistyrose;
+    padding: 0.5rem 3%;
+}
+
+.bridgeheader h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
 .tim-row{
     margin-bottom: 20px;
 }
