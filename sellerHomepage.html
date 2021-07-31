@@ -2,27 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+      <meta name="Author" content="Bagha Charuduth">
     <title>Dashboard Page</title>
-    <link rel="shortcut icon" href="../public/images/TheBridgeLogo.ico">
-    <link rel="stylesheet" href="styles/sellerHome.css">
+    <link rel="shortcut icon" href="public/images/TheBridgeLogo.ico">
+    <link rel="stylesheet" href="public/styles/sellerHome.css">
   </head>
   <body>
      <nav>
          <header>
-             <img id="headerimg" src="../public/images/TheBridgeLogo.png" alt="The Bridge Logo">
+             <img src="public/images/the-bridge-logo-test.svg">
          </header>
           <header>Sales Report</header>
           <section>
-            <header>Main</header>
             <ul>
               <li class="active">Dashboard</li>
-              <li data-value="8">Reports</li>
+              <li><a href="learn.html">Learn</a></li>
+			  <li><a href="findAProduct.html">Find a Product</a></li>
             </ul>
           </section>
           <section>
-            <header>Account</header>
             <ul>
-              <li data-value="4">Messages</li>
+			  <li><a href="profilePage.html">Your profile</a></li>
+              <li data-value="4">Messages</a></li>
+			  <li><a href="#gsdk">Accessibility Statement</a></li>
+			  <li><a href="#gsdk">Our Mission</a></li>
+			  <li><a href="#gsdk">Donate</a></li>
+			  <li><a href="#gsdk">Contact Us</a></li>
             </ul>
           </section>
         </nav>
@@ -59,39 +64,58 @@
             <table>
               <thead>
                 <tr>
-                  <th>November Sales</th>
+                  <th>Sales - Last Montnh</th>
                   <th>Quantity</th>
                   <th>Total</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Dallas Oak Dining Chair</td>
+                  <td>Customized Bracelet</td>
                   <td>20</td>
-                  <td>$1,342</td>
+                  <td>£100</td>
                 </tr>
                 <tr>
-                  <td>Benmore Glass Coffee Table</td>
+                  <td>Kenyan Glass Coffee Table</td>
                   <td>18</td>
-                  <td>$1,550</td>
+                  <td>£1,550</td>
                 </tr>
                 <tr>
-                  <td>Aoraki Leather Sofa</td>
+                  <td>Customized Keychain</td>
                   <td>15</td>
-                  <td>$4,170</td>
+                  <td>£157</td>
                 </tr>
                 <tr>
-                  <td>Bali Outdoor Wicker Chair</td>
+                  <td>Phonecase</td>
                   <td>25</td>
-                  <td>$2,974</td>
+                  <td>£2,974</td>
                 </tr>
               </tbody>
             </table>
           </section>
+		<div class="footer">
+              <div class="credits">
+                  &copy; The Bridge, 2021
+              </div>
+		</div>
         </article>
-      <script src="./javascript/doughnut.js"></script>
+		<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	    <script id="rendered-js" src="public/javascript/doughnut.js"></script>
+	    <script>
+			window.watsonAssistantChatOptions = {
+				integrationID: "3f18da69-2c85-4360-97b7-28ca9cba2c3a", // The ID of this integration.
+				region: "eu-gb", // The region your integration is hosted in.
+				serviceInstanceID: "3164cf0f-8301-444b-8fdd-3a4f896e1824", // The ID of your service instance.
+				onLoad: function(instance) { instance.render(); }
+			  };
+			setTimeout(function(){
+			  const t=document.createElement('script');
+			  t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+			  document.head.appendChild(t);
+			});
+	   </script>
   </body>
-  <footer>
-     <p>&#9400; The Bridge, 2021
-  </footer>
 </html>
+<!--Credits to icebob for the code (codepen)-->
