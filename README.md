@@ -68,9 +68,12 @@ Please read CONTRIBUTING.md for details on our code of conduct, and the process 
 - HTML5
 - CSS3
 - JS
+- IBM Cloud DevOps Toolchain
+- IBM Watson Assistant
+- IBM Cloud Foundry
 ​
 ## License
-Everything is available according to [this](https://commonsclause.com/)
+Code and documentation are available according to the Commons Clause Version 1 (see [LICENSE](https://commonsclause.com/)).
 ​
 ## Acknowledgement
 We used the [project sample](https://github.com/Call-for-Code/Project-Sample#contributing) given to us by IBM as template.
