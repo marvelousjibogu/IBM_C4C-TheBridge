@@ -1,7 +1,8 @@
 # The Bridge
 ​
 ![Logo](https://i.postimg.cc/HLzkR4Hg/The-Bridge.png "The Bridge Logo")
-**Table of contents:**
+​
+## Table of contents:
 1. Introduction
 2. The problem being addressed
 3. Our Solution
