@@ -433,3 +433,15 @@
     display: inline-block;
     margin-bottom: 25px;
 }
+
+.the-bridge-button{
+    color: #FFFFFF;
+}
+
+.the-bridge-button:hover{
+    color: #FFFFFF;
+}
+
+.the-bridge-button:visited{
+    color: #FFFFFF;
+}
