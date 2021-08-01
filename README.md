@@ -38,6 +38,9 @@ We will do this using our web platform, which allows sellers to send in a protot
 We also added a learning platform onto the website. As the platform expands, we will ask communities to share their skills in the form of a tutorial video, which we would put together using footage that we gather,. We would pay them to do the tutorials, and it would effectively allow communities to share with each other. Since the videos may be in languages which they are not familiar with, we will use the IBM language translator on expansion to solve this problem.
 ​
 There’s also the donation section, which allows people to donate to specific sellers, or to our startup, which would help us to expand on the services we offer at the moment.
+
+## Demo video
+[![IMAGE](https://i.postimg.cc/gc4zPw4K/The-Bridge-Play-Video-Thumbnail.png)](https://www.youtube.com/watch?v=BB6sqCJHy18)
 ​
 ## Long Description
 Here is our [long description](https://docs.google.com/document/d/1hVdN7qtD8eDZFbDeAEbjScFkVSK6vge1zHtIaZfLjIo/edit?usp=sharing)
