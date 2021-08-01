@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<!-- Credit CodePen for the code-->
+	<link rel="icon" type="image/png" href="public/images/TheBridgeLogo.ico">
+	<link rel="stylesheet" href="public/styles/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	
+
+</head>
+
+<body>
+	<div class="tile">
+        <div class="tile-header">
+        </div>
+        
+        <div class="tile-body">
+          <form id="form">
+            <label class="form-input">
+              <i class="material-icons">person</i>
+              <input type="text" autofocus="true" required />
+              <span class="label">Username</span>
+              <span class="underline"></span>
+            </label>
+            
+            <label class="form-input">
+              <i class="material-icons">lock</i>
+              <input type="password" required />
+              <span class="label">Password</span>
+              <div class="underline"></div>
+            </label>
+            
+            <div class="submit-container clearfix" style="margin-top: 2rem;">          
+              <a href="sellerHomepage.html"><div id="submit" role="button" type="button" class="btn btn-irenic float-right" tabindex="0">
+                <span>SIGN IN</span>
+              </div></a>
+              
+              <div class="login-pending">
+                <div class=spinner>
+                  <span class="dot1"></span>
+                  <span class="dot2"></span>
+                </div>
+                
+                <div class="login-granted-content">
+                  <i class="material-icons">done</i>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>

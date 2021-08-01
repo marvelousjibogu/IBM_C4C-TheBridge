@@ -5,7 +5,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-​
+
 html, body {
   background-color: #202B33;
   color: #738491;
@@ -100,7 +100,7 @@ nav section ul li.new {
   font-size: 0.9rem;
   color: #545f68;
 }
-​
+
 article {
   position: absolute;
   top: 0;
@@ -124,7 +124,7 @@ article > header .user {
   float: right;
   width: 48px;
   height: 48px;
-  /*background-image: url("https://s3.amazonaws.com/uifaces/faces/twitter/peterlandt/48.jpg");*/
+  background-image: url("https://s3.amazonaws.com/uifaces/faces/twitter/peterlandt/48.jpg");
   -moz-border-radius: 48px;
   -webkit-border-radius: 48px;
   border-radius: 48px;
@@ -194,25 +194,26 @@ article section table thead th {
   text-transform: uppercase;
   color: #D3D3D3;
 }
+
 .logo-container{
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .logo-container .logo{
-    overflow: hidden;
-    height: 50px;
-    width: 88px;
-    float: left;
+  overflow: hidden;
+  height: 50px;
+  width: 88px;
+  float: left;
 }
 .logo-container .logo img{
-    width: 100%;
+  width: 100%;
 }
 a.nav-link:link
 {
-   color: #738491;
-   text-decoration: none;
+ color: #738491;
+ text-decoration: none;
 }
 a.nav-link:visited
 {
-   color: #738491;
-   text-decoration: none;
+ color: #738491;
+ text-decoration: none;
 }
